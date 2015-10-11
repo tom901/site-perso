@@ -1,22 +1,13 @@
-Application starter
-================
-
-A application starter kit with :
-
-* [Twitter Bootstrap](http://twitter.github.io/bootstrap/)
-* [AngularJS](http://angularjs.org/)
-* [NodeJS](http://nodejs.org/) and [Express](http://expressjs.com/)
-* [Grunt](http://gruntjs.com/)
-* [LiveReload](http://livereload.com/)
-* [Bower](http://twitter.github.com/bower/)
-
-
-Install [LiveReload Chrome Extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)
-
-```
-git clone git://github.com/obazoud/grunt-angular-express-starter.git
-cd grunt-angular-express-starter
-npm install
-bower install
-grunt server
-```
+Site personnel 
+==============
+<br/>
+Site perso pour s'entrainer sur les technologies web du moment.
+<br/>
+<br/>
+npm install après avoir cloner le dépot
+<br/>
+Lancer le server.js
+<br/>
+puis aller sur :
+<br/>
+localhost:9000 
