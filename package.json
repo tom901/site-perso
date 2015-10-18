@@ -1,7 +1,10 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "fs": "0.0.2"
+  },
   "devDependencies": {
     "grunt-contrib-copy": "~0.4.0",
     "grunt-contrib-concat": "~0.1.3",
