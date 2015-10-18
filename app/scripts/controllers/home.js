@@ -26,7 +26,8 @@ angular.module('app.home', [])
                 barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 15,
-                lineCap: 'circle'
+                lineCap: 'circle',
+                size : 100
             };
         }
 
@@ -41,7 +42,8 @@ angular.module('app.home', [])
                 barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 15,
-                lineCap: 'circle'
+                lineCap: 'circle',
+                size : 100
             };
         }
 
@@ -56,7 +58,8 @@ angular.module('app.home', [])
                 barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 15,
-                lineCap: 'circle'
+                lineCap: 'circle',
+                size : 100
             };
         }
 
@@ -71,7 +74,8 @@ angular.module('app.home', [])
                 barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 15,
-                lineCap: 'circle'
+                lineCap: 'circle',
+                size : 100
             };
         }
 
@@ -86,7 +90,8 @@ angular.module('app.home', [])
                 barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 15,
-                lineCap: 'circle'
+                lineCap: 'circle',
+                size : 100
             };
         }
 
@@ -101,7 +106,8 @@ angular.module('app.home', [])
                 barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 15,
-                lineCap: 'circle'
+                lineCap: 'circle',
+                size : 100
             };
         }
     });
