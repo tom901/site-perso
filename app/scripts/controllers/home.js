@@ -23,7 +23,7 @@ angular.module('app.home', [])
                     enabled: true
                 },
                 trackColor: '#C7C7C7',
-                barColor: '#6C97E5',
+                barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 20,
                 lineCap: 'circle'
@@ -38,7 +38,7 @@ angular.module('app.home', [])
                     enabled: true
                 },
                 trackColor: '#C7C7C7',
-                barColor: '#6C97E5',
+                barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 20,
                 lineCap: 'circle'
@@ -53,7 +53,7 @@ angular.module('app.home', [])
                     enabled: true
                 },
                 trackColor: '#C7C7C7',
-                barColor: '#6C97E5',
+                barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 20,
                 lineCap: 'circle'
@@ -68,7 +68,7 @@ angular.module('app.home', [])
                     enabled: true
                 },
                 trackColor: '#C7C7C7',
-                barColor: '#6C97E5',
+                barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 20,
                 lineCap: 'circle'
@@ -83,7 +83,7 @@ angular.module('app.home', [])
                     enabled: true
                 },
                 trackColor: '#C7C7C7',
-                barColor: '#6C97E5',
+                barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 20,
                 lineCap: 'circle'
@@ -98,7 +98,7 @@ angular.module('app.home', [])
                     enabled: true
                 },
                 trackColor: '#C7C7C7',
-                barColor: '#6C97E5',
+                barColor: '#858585',
                 scaleColor: false,
                 lineWidth: 20,
                 lineCap: 'circle'
