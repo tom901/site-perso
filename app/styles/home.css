@@ -59,6 +59,17 @@
     font-weight: 400;
     letter-spacing: 2px;
 }
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
 /* OLD Header*/
 .block-header{
     background: url('../images/backgroundThomery.JPG') no-repeat center center fixed;
