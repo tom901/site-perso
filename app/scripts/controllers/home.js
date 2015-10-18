@@ -25,7 +25,7 @@ angular.module('app.home', [])
                 trackColor: '#C7C7C7',
                 barColor: '#858585',
                 scaleColor: false,
-                lineWidth: 20,
+                lineWidth: 15,
                 lineCap: 'circle'
             };
         }
@@ -40,7 +40,7 @@ angular.module('app.home', [])
                 trackColor: '#C7C7C7',
                 barColor: '#858585',
                 scaleColor: false,
-                lineWidth: 20,
+                lineWidth: 15,
                 lineCap: 'circle'
             };
         }
@@ -55,7 +55,7 @@ angular.module('app.home', [])
                 trackColor: '#C7C7C7',
                 barColor: '#858585',
                 scaleColor: false,
-                lineWidth: 20,
+                lineWidth: 15,
                 lineCap: 'circle'
             };
         }
@@ -70,7 +70,7 @@ angular.module('app.home', [])
                 trackColor: '#C7C7C7',
                 barColor: '#858585',
                 scaleColor: false,
-                lineWidth: 20,
+                lineWidth: 15,
                 lineCap: 'circle'
             };
         }
@@ -85,7 +85,7 @@ angular.module('app.home', [])
                 trackColor: '#C7C7C7',
                 barColor: '#858585',
                 scaleColor: false,
-                lineWidth: 20,
+                lineWidth: 15,
                 lineCap: 'circle'
             };
         }
@@ -100,7 +100,7 @@ angular.module('app.home', [])
                 trackColor: '#C7C7C7',
                 barColor: '#858585',
                 scaleColor: false,
-                lineWidth: 20,
+                lineWidth: 15,
                 lineCap: 'circle'
             };
         }
