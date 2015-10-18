@@ -1,0 +1,75 @@
+.block-header{
+    background: url('../images/backgroundThomery.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+    min-height: 800px;
+}
+.page-home {
+    padding-top: 200px;
+    text-align: center;
+}
+.page-home h1{
+    font-family: Geneva ;
+    line-height: 1em;
+    font-size: 70px;
+    color: #ffffff;
+}
+.page-home h2, .page-home h3{
+    font-size: 40px;
+    font-family: Geneva ;
+    line-height: 1em;
+    color: #ffffff;
+
+
+}
+.title-page-home{
+    text-align: center;
+
+}
+.title-h1{
+    font-size: 50px;
+}
+.title-page{
+    padding: 1%;
+    text-align: center;
+    font-family: Geneva, serif;
+    line-height: 1em;
+    font-weight:bold;
+}
+.work-skill{
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.circle-skill{
+    margin: 3%;
+}
+.title-skill-circle{
+    padding: 1%;
+    font-family: Geneva, serif;
+    line-height: 1em;
+    font-size: 25px;
+    text-decoration: none;
+}
+.work-about{
+    background-color: #6C97E5;
+    min-height: 500px;
+    color: #ffffff;
+    padding: 3%;
+}
+.image-tools{
+    width: 40%;
+    padding-bottom: 10% ;
+}
+.work-tools-used{
+    text-align: center;
+    padding: 3%;
+}
+.work-project{
+    background-color: #6C97E5;
+    color: #ffffff;
+    padding: 3%;
+}

@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+
+}
+#menu {
+    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    position: fixed;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px;
+    width: 100%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    text-shadow:0px 0px 0 rgb(197,197,197),1px 1px 0 rgb(179,179,179),2px 2px 0 rgb(162,162,162),3px 3px 0 rgb(144,144,144),4px 4px 0 rgb(127,127,127), 5px 5px 0 rgb(110,110,110),6px 6px 5px rgba(0,0,0,0.3),6px 6px 1px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,.2);
+}
+
+.menu-label {
+    padding-right: 15%;
+    padding-left: 15%;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu-label:hover{
+    color: #ffffff;
+
+}
