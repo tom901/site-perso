@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp', ['easypiechart','app.home','app.blog','app.tuto','ui.router', 'app.testCode','ui.bootstrap'])
+angular.module('myApp', ['easypiechart','app.home','app.blog','app.tuto','ui.router', 'app.testCode','ui.bootstrap','app.projectService'])
     .config(function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/home");
         $stateProvider

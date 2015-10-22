@@ -1,7 +1,14 @@
 'use strict';
 
 angular.module('app.home', [])
-    .controller('HomeCtrl', function ($scope) {
+    .controller('HomeCtrl', function ($scope, ProjectService) {
+        
+        $scope.projects = ProjectService.getProjects();
+        // angular.forEach($scope.projects, function(project) {
+        //     console.log(project);
+        // });
+        console.log($scope.projects);
+        $scope.$apply;
         $scope.awesomeThings = [
             'HTML5 Boilerplate',
             'AngularJS',

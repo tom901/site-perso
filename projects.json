@@ -6,7 +6,7 @@
     },
     {
         "titleProject": "Mise en place d'une solution Salesforce pour un centre d'appel",
-        "text": "Un centre d'appel voulez une solution pour leur téléopérateur, un système fiable, rapide.\nPour cela avec l'aide d'un collègue, on leur a développé une solution salesforce customizé, c'est à dire que nous avons pas utilisé les pages de base de Salesforce, mais nous avons recréer des visuels via des pages Visualforce pour qu'on reponde au mieux à l'heure besoin.\nOn a défini plusieurs interface dont l'accèssibilité dépend des droits de l'utilisateur qui se connect.\nPour le fonctionnement de l'application, chaque matin, le manager doit uploder un fichier dans salesforce pour partager les différentes pistes aux téléopérateur(ce partage est fait automatiquement).",
+        "text": "Un centre d'appel voulez une solution pour leur téléopérateur, un système fiable, rapide. \r\nPour cela avec l'aide d'un collègue, on leur a développé une solution salesforce customizé, c'est à dire que nous avons pas utilisé les pages de base de Salesforce, mais nous avons recréer des visuels via des pages Visualforce pour qu'on reponde au mieux à l'heure besoin.\nOn a défini plusieurs interface dont l'accèssibilité dépend des droits de l'utilisateur qui se connect.\nPour le fonctionnement de l'application, chaque matin, le manager doit uploder un fichier dans salesforce pour partager les différentes pistes aux téléopérateur(ce partage est fait automatiquement).",
         "dateProject": "Février 2015"
     }
 ]

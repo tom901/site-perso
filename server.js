@@ -21,11 +21,8 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 app.get('/api/projects', function(req, res) {
-	console.log('entré dans api');
   fs.readFile('projects.json', function(err, data) {
     res.setHeader('Cache-Control', 'no-cache');
-	console.log('avant de parse');
-
     res.json(JSON.parse(data));
   });
 });

@@ -60,7 +60,16 @@
     letter-spacing: 2px;
 }
 /* Map */
-
+.percent {
+  display: inline-block;
+  line-height: 110px;
+  z-index: 2;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
 .map {
     height: 500px;
 }
