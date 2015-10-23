@@ -1,12 +1,12 @@
 [
     {
-        "titleProject": "Interfaçage entre Salesforce et un outil interne de devis",
-        "text": "Mise en place de tableau récapitulatif de devis, les devis étant present dans le logiciel de l'entreprise, il a fallut que les commerciaux puissent les retrouver dans Salesforce, \n donc mise en pratique de l'apex pour avoir des viseuls simples et induitifs.\n Pour que les données soient presentes dans salesforce depuis l'autre logiciel, il a fallu interfaçé pour cela l'utilisation de talend vu indispensable, avec la mise en place de web service, pouvant renvoyer les données d'un devis en fonction du numéro d'Id.",
-        "dateProject": "Aout 2014"
+        "titleProject": "Intégration d'une solution Salesforce pour un centre d'appel",
+        "text": "<p>Un centre d'appel avez besoin d'une solution pour leurs téléopérateurs, un système fiable, rapide avec une simple ergonomie.</p><p> Pour cela avec l'aide d'un collègue, nous avons mis en place une solution entièrement personnalisée.</p><p>Nous n'avons pas utilisé les pages standard de Salesforce, nous avons recréer des visuels via des pages Visualforce pour répondre au mieux aux besoins du client.</p><p> On a défini plusieurs interfaces qui peuvent varier en fonction du rôle du salarié dans l'entreprise.</p><p> Pour le fonctionnement de l'application, chaque matin, le manager doit télécharger un fichier dans salesforce pour partager les différentes pistes aux téléopérateur (ce partage est fait automatiquement aux différents employés).",
+        "dateProject": "Février 2015"
     },
     {
-        "titleProject": "Mise en place d'une solution Salesforce pour un centre d'appel",
-        "text": "Un centre d'appel voulez une solution pour leur téléopérateur, un système fiable, rapide. \r\nPour cela avec l'aide d'un collègue, on leur a développé une solution salesforce customizé, c'est à dire que nous avons pas utilisé les pages de base de Salesforce, mais nous avons recréer des visuels via des pages Visualforce pour qu'on reponde au mieux à l'heure besoin.\nOn a défini plusieurs interface dont l'accèssibilité dépend des droits de l'utilisateur qui se connect.\nPour le fonctionnement de l'application, chaque matin, le manager doit uploder un fichier dans salesforce pour partager les différentes pistes aux téléopérateur(ce partage est fait automatiquement).",
-        "dateProject": "Février 2015"
+        "titleProject": "Interfaçage entre Salesforce et Deviseur (outil interne de création de devis)",
+        "text": "<p> Mise en place d'un tableau récapitulatif des devis présent dans leur outil, sur la page des opportunités dans Salesforce, afin que les commerciaux peuvent avoir une visibilité de leur affaire et une synchronisation en temps réel.</p> Cette structure à été réalisé à l'aide des technologies Salesforce avec une visualforce pour faire l'interface et l'apex afin d'avoir un lien avec les informations stockées dans la base de données de Salesforce.<p> Pour que les informations se synchronisent en temps réel, Talend m'a permit d' interfaçer les deux outils ensemble pour mettre en place les liens nécessaire en place.</p> <p> Ce fut la mise en place de web service pouvant être appellé à distance en entrant certaines informations pour le bon fonctionnement des liens entre les applications.</p>",
+        "dateProject": "Aout 2014"
     }
 ]
