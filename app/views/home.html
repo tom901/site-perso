@@ -73,15 +73,14 @@
         </div>
     </div>
 </div>
-</div>
 <div class="work-about" id="ancre-about">
 <div class="container">
     <div class="row">
-        <div class=" col-md-offset-1  col-md-3 title-skill-circle">
-            <p>A propos de moi</p>
+        <div class="col-md-offset-1  col-md-3 title-skill-circle">
             <br/>
+            <p>A propos de moi</p>
             <a href="http://certification.salesforce.com/verification?&fullname=thomas%20paraiso">
-            <img style="width : 60%;" src="images/logoCertified.png"/>
+            <img style="width : 70%;" src="images/logoCertified.png"/>
             </a>
         </div>
         <div class="col-md-5 ">
@@ -153,26 +152,39 @@
 </div>
 </div>
 <div class="work-project" id="ancre-project">
-<div class="container title-page">
+<!-- <div class="container title-page">
     <div class="row">
         <div class="col-sm-12">
             <h1 class="title-h1" >Mes projets</h1>
         </div>
     </div>
-</div>
+</div> -->
 <div class="container">
-    <div class="row" ng-repeat="project in projects">
-    <br/>
-        
-        <div class="col-md-4 title-skill-circle">{{project.titleProject}}</div>
+    <div class="row" >
+        <div id="projects" ng-repeat="project in projects">
+            <div class="col-lg-4 col-md-4 col-sm-4 mb">
+                <div class="content-panel pn">
+                    <div id="blog-bg">
+                        <div class="img-project">
+                            <img style="width : 100%;" ng-src="{{project.pathImageProject}}"/>
+                        </div>
+                        <div class="blog-title" data-toggle="modal" data-target="#myModal" ng-click="setSelectedProject($index)">{{project.shortTitleProject}}</div>
+                    </div>
+                    <div class="blog-text">
+                    <p>{{project.titleProject}}<a data-toggle="modal" data-target="#myModal" ng-click="setSelectedProject($index)"> Plus d'info</a></p>
+                    <!-- <p>{{project.titleProject}}<a ui-sref="projectDetail"> Plus d'info</a></p> -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- <div class="col-md-4 title-skill-circle">{{project.titleProject}}</div>
         <div class="col-md-5 ">
             <p ng-bind-html-unsafe='project.text'/>
         </div>
-        <div class="col-md-3 title-skill-circle">{{project.dateProject}}</div>
+        <div class="col-md-3 title-skill-circle">{{project.dateProject}}</div> -->
         
     </div>
-    <br/>
-    <br/>
 </div>
 </div>
 <!-- Map -->
@@ -183,3 +195,25 @@
 <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=JLConsulting&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=JLConsulting&amp;t=m&amp;z=15&amp;iwloc=A"></a>
 </small>
 </section>
+<!-- Modal -->
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h3 class="modal-title modal-title-project">{{projects[selectedProject].titleProject}}</h3>
+                      <h6>{{projects[selectedProject].dateProject}}</h6>
+
+                    </div>
+                    <div class="modal-body">
+                        <p ng-bind-html-unsafe='projects[selectedProject].textProject'/>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>

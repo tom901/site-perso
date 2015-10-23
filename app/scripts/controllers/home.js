@@ -4,10 +4,18 @@ angular.module('app.home', [])
     .controller('HomeCtrl', function ($scope, ProjectService) {
         
         $scope.projects = ProjectService.getProjects();
+        console.log($scope.projects);
+        var tmpProjects = $scope.projects;
+        console.log(tmpProjects);
+
+        $scope.setSelectedProject = function(selected) {
+         
+         $scope.selectedProject = selected;
+        }
         // angular.forEach($scope.projects, function(project) {
         //     console.log(project);
         // });
-        console.log($scope.projects);
+        // console.log($scope.projects);
         $scope.$apply;
         $scope.awesomeThings = [
             'HTML5 Boilerplate',
