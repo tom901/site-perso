@@ -71,7 +71,7 @@
   font-size: .8em;
 }
 .map {
-    height: 500px;
+    height: 300px;
 }
 
 @media(max-width:768px) {
@@ -147,7 +147,7 @@
 }
 .work-tools-used{
     text-align: center;
-    padding: 3%;
+    padding-top: 3%;
 }
 .work-project{
     background-color: #C7C7C7;
