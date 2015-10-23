@@ -4,9 +4,9 @@ angular.module('app.home', [])
     .controller('HomeCtrl', function ($scope, ProjectService) {
         
         $scope.projects = ProjectService.getProjects();
-        console.log($scope.projects);
+        // console.log($scope.projects);
         var tmpProjects = $scope.projects;
-        console.log(tmpProjects);
+        // console.log(tmpProjects);
 
         $scope.setSelectedProject = function(selected) {
          
