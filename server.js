@@ -18,6 +18,7 @@ app.use(express.methodOverride());
 app.use(app.router);
 //to load the index.html
 app.use('/', express.static(path.join(__dirname, 'app')));
+app.use('/bower_components', express.static(path.join(__dirname, 'bower_components')));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));

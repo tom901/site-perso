@@ -4,7 +4,8 @@
   "dependencies": {
     "body-parser": "^1.14.1",
     "fs": "0.0.2",
-    "instagram-node": "^0.5.8"
+    "instagram-node": "^0.5.8",
+    "angulartics-google-analytics": "^0.1.2"
   },
   "devDependencies": {
     "grunt-contrib-copy": "~0.4.0",
