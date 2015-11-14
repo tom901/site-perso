@@ -1,0 +1,21 @@
+<div class="instagram-page">
+    <div class="container">
+        <h1 class="color-grey">Galerie Instagram</h1>
+        <hr/>
+        <div class="row">
+            <div class="col-md-3 col-sm-6"  ng-repeat="i in instaobj">
+                <div class="project-wrapper">
+                    <div class="image-insta">
+                        <div class="photo-wrapper image-block">
+                            <div class="photo">
+                                <a ng-href="{{i.link}}" target="_bank">
+                                    <img src="{{i.images.standard_resolution.url}}" class="insta-img img-responsive " />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

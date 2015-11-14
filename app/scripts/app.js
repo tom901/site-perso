@@ -1,6 +1,7 @@
 'use strict';
-angular.module('app', ['easypiechart', 'app.home', 'app.blog', 'app.tuto', 'ui.router',
-                         'app.testCode', 'ui.bootstrap', 'app.projectService', 'app.projectDetail']).config(function($stateProvider, $urlRouterProvider) {
+angular.module('app', ['easypiechart','app.instagramService','app.home', 'app.blog', 'app.tuto', 'ui.router',
+                         'app.testCode', 'ui.bootstrap', 'app.projectService', 'app.projectDetail',
+                         'app.instagram']).config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/home");
     $stateProvider.state('home', {
         url: "/home",
@@ -18,6 +19,10 @@ angular.module('app', ['easypiechart', 'app.home', 'app.blog', 'app.tuto', 'ui.r
         url: "/projectDetail",
         templateUrl: "views/projectDetail.html",
         controller: 'ProjectDetailCtrl'
+    }).state('instagram', {
+        url: "/instagram",
+        templateUrl: "views/instagram.html",
+        controller: 'InstagramCtrl'
     }).state('test', {
         url: "/test",
         templateUrl: "views/test.html",
