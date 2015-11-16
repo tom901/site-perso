@@ -138,8 +138,11 @@
 .work-about{
     background-color: #C7C7C7;
     min-height: 300px;
-    color: #ffffff;
+    /*color: #ffffff;*/
     padding: 3%;
+}
+.size-image-full{
+    width: 100%;
 }
 .image-tools{
     width: 40%;
