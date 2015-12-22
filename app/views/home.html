@@ -143,13 +143,6 @@
     </div>
 </div>
 <div class="work-project" id="ancre-project">
-    <!-- <div class="container title-page">
-            <div class="row">
-                    <div class="col-sm-12">
-                            <h1 class="title-h1" >Mes projets</h1>
-                    </div>
-            </div>
-    </div> -->
     <div class="container">
         <div class="row" >
             <div id="projects" ng-repeat="project in projects">
@@ -159,21 +152,15 @@
                             <div class="img-project">
                                 <img style="width : 100%;" ng-src="{{project.pathImageProject}}"/>
                             </div>
-                            <div class="blog-title" data-toggle="modal" data-target="#myModal" ng-click="setSelectedProject($index)">{{project.shortTitleProject}}</div>
+                            <!-- <div class="blog-title" data-toggle="modal" data-target="#myModal" ng-click="setSelectedProject($index)">{{project.titleProject}}</div> -->
                         </div>
                         <div class="blog-text">
-                            <p>{{project.titleProject}}<a data-toggle="modal" data-target="#myModal" ng-click="setSelectedProject($index)"> Plus d'info</a></p>
-                            <!-- <p>{{project.titleProject}}<a ui-sref="projectDetail"> Plus d'info</a></p> -->
+                        <p><h5>{{project.titleProject}}. <a data-toggle="modal" data-target="#myModal" ng-click="setSelectedProject($index)">Plus d'information</a></h5></p>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <!-- <div class="col-md-4 title-skill-circle">{{project.titleProject}}</div>
-                    <div class="col-md-5 ">
-                            <p ng-bind-html-unsafe='project.text'/>
-                    </div>
-            <div class="col-md-3 title-skill-circle">{{project.dateProject}}</div> -->
 
         </div>
     </div>
@@ -195,10 +182,16 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h3 class="modal-title modal-title-project">{{projects[selectedProject].titleProject}}</h3>
-                <h6>{{projects[selectedProject].dateProject}}</h6>
+                <p><h4>Durée du projet : </h4></p>
+                <h6>{{projects[selectedProject].timeProject}}</h6>
             </div>
             <div class="modal-body">
+                <p><h4>Contexte :</h4></p>
                 <p ng-bind-html-unsafe='projects[selectedProject].textProject'/>
+                <p><h4>Tâches réalisées :</h4></p>
+                <div class="list-task" ng-bind-html-unsafe='projects[selectedProject].tasks'/>
+                <p><h4>Environnement technique :</h4></p>
+                <div class="list-task" ng-bind-html-unsafe='projects[selectedProject].toolsUsed'/>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
