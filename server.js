@@ -32,6 +32,12 @@ app.get('/api/projects', function(req, res) {
     res.json(JSON.parse(data));
   });
 });
+app.get('/api/tutorials', function(req, res) {
+  fs.readFile('tutorials.json', function(err, data) {
+    res.setHeader('Cache-Control', 'no-cache');
+    res.json(JSON.parse(data));
+  });
+});
 app.get('/api/instagram', function(req, res) {
    var objtmp = {};
   insta.user_media_recent('1394457325', {count : 20}, function(err, medias, pagination, remaining, limit) {

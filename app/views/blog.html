@@ -1,54 +1,156 @@
-<div class="blog-block">
+  
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <!--  <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> -->
+        <link rel="stylesheet" href="styles/clean-blog.css">
+
+
+<body>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Sample Post</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('../images/home-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Blog / Tuto</h1>
+                        <hr class="small">
+                        <span class="subheading">Venez découvrir des sujets</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
-                <img class="blog-image-left" src="images/logoAngularJs.png"/>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" ng-repeat="t in tutorials">
+                <div class="post-preview">
+                    <a ui-sref="blogDetail({blogId : t.id})">
+                        <h2 class="post-title">
+                            {{t.title}}
+                        </h2>
+                        <h3 class="post-subtitle">
+                            {{t.subTitle}}
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posté par <a href="http://thomasparaiso.com">{{t.createdBy}}</a> le {{t.createdDate}}</p>
+                </div>
+                <hr>
+                <!-- <div class="post-preview">
+                    <a ui-sref="blogDetail">
+                        <h2 class="post-title">
+                            Lightning Components le nouveau framework Javascript de Salesforce ! 
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Issue du framework Aura Open Source
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posté par <a href="http://thomasparaiso.com">Thomas Paraiso</a> le 23 Décembre 2015</p>
+                </div>
+                <hr> -->
+                <!-- <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Importer des données en masse dans Salesforce avec Dataloader.io et un fichier CSV.
+                        </h2>
+                    </a>
+                    <p class="post-meta">Posté par <a href="http://thomasparaiso.com">Thomas Paraiso</a> le 23 Décembre 2015</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Importer un fichier CSV de façon automatique dans Salesforce avec Talend
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Automatisation d'une tâche récurrente
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posté par <a href="http://thomasparaiso.com">Thomas Paraiso</a> le 23 Décembre 2015</p>
+                </div>
+                <hr> -->
+                <!-- Pager -->
+                <!-- <ul class="pager">
+                    <li class="next">
+                        <a href="#">Older Posts &rarr;</a>
+                    </li>
+                </ul> -->
             </div>
-            <div class="blog-article col-md-8">
-                <h1 class="blog-title-article">
-                    AngularJS
-                </h1>
-                <p><a ng-href="https://angularjs.org/" target="_blank">Site web officiel</a></p>
-
-                <p>AngularJS est un framework JavaScript libre et open-source développé par Google, au même titre que
-                    MooTools, Prototype ou Dojo. Il a pour but de simplifier la syntaxe javascript, et de combler les
-                    faiblesses de javascript en lui ajoutant de nouvelles fonctionnalités. Et ainsi faciliter la
-                    réalisation d'applications web monopages.
-
-                    AngularJS utilise la bibliothèque open source jQuery. Si jQuery n'est pas présent dans le chemin du
-                    script, AngularJS reprend sa propre implémentation de jQuery lite. Si jQuery est présent dans le
-                    chemin, AngularJS l'utilise pour manipuler le DOM.
-                </p>
-                <h6>Par Thomas le 2 Octobre 2014 à Boulogne Billancourt</h6>
-            </div>
-            <div class="col-md-2"></div>
         </div>
-
-
-        <div class="row">
-            <div class="col-md-2">
-                <img class="blog-image-left" src="images/Salesforce_Logo.png"/>
-            </div>
-            <div class="blog-article col-md-8">
-                <h1 class="blog-title-article">
-                    Salesforce
-                </h1>
-
-                <p>
-                    Salesforce.com est un éditeur de logiciels, basé à San Francisco aux États-Unis. Il distribue des
-                    logiciels de gestion basés sur Internet et héberge des applications d'entreprises. L'entreprise est
-                    surtout connue au niveau international pour ses solutions en gestion de la relation client.
-
-                    Précurseur du Cloud Computing, et aujourd’hui leader mondial des outils de relation client,
-                    Salesforce compte plus de 100 000 entreprises clientes1 dont Pernod Ricard, AXA ou encore Schneider
-                    Electric.
-
-                </p>
-                <h6>Par Thomas le 2 Octobre 2014 a Boulogne Billancourt</h6>
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-
-
     </div>
-</div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/ThomAiso">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://fr.linkedin.com/pub/thomas-paraiso/a2/799/135">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tom901">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+

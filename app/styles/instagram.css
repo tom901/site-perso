@@ -1,8 +1,83 @@
 .instagram-page {
-    text-align: center;
-    margin-top: 3%;
-    margin-bottom: 2%;
-	font-family: Geneva ;
+    margin-top: 2%;
+}
+.intro-header-instagram {
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+.intro-header-instagram .site-heading,
+.intro-header-instagram .post-heading,
+.intro-header-instagram .page-heading {
+  padding: 100px 0 50px;
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header-instagram .site-heading,
+  .intro-header-instagram .post-heading,
+  .intro-header-instagram .page-heading {
+    padding: 150px 0;
+  }
+}
+.intro-header-instagram .site-heading,
+.intro-header-instagram .page-heading {
+  text-align: center;
+}
+.intro-header-instagram .site-heading h1,
+.intro-header-instagram .page-heading h1 {
+  margin-top: 0;
+  font-size: 50px;
+}
+.intro-header-instagram .site-heading .subheading,
+.intro-header-instagram .page-heading .subheading {
+  font-size: 24px;
+  line-height: 1.1;
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header-instagram .site-heading h1,
+  .intro-header-instagram .page-heading h1 {
+    font-size: 80px;
+  }
+}
+.intro-header-instagram .post-heading h1 {
+  font-size: 35px;
+}
+.intro-header-instagram .post-heading .subheading,
+.intro-header-instagram .post-heading .meta {
+  line-height: 1.1;
+  display: block;
+}
+.intro-header-instagram .post-heading .subheading {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin: 10px 0 30px;
+  font-weight: 600;
+}
+.intro-header-instagram .post-heading .meta {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+}
+.intro-header-instagram .post-heading .meta a {
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header-instagram .post-heading h1 {
+    font-size: 55px;
+  }
+  .intro-header-instagram .post-heading .subheading {
+    font-size: 30px;
+  }
 }
 .image-block{
 
