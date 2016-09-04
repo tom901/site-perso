@@ -7,9 +7,10 @@ var insta = require('instagram-node').instagram();
 var app = express();
 insta.use({
   client_id: '293f7be23755487c8a2e782a3184d0c1',
-  client_secret: 'a02b864cb0f64949b9d0df1e7d013a17'
+  client_secret: 'a02b864cb0f64949b9d0df1e7d013a17',
+  access_token: '1394457325.1677ed0.2911e9e08a194d2fa2fde16a919d8b94'
 });
-
+console.log('apres insta.use');
 app.set('port', process.env.PORT || 9000);
 // app.use(express.favicon());
 app.use(express.logger('dev'));
@@ -43,6 +44,7 @@ app.get('/api/instagram', function(req, res) {
   insta.user_media_recent('1394457325', {count : 20}, function(err, medias, pagination, remaining, limit) {
 	console.log('err Insta : ');
 	console.log(err);
+    console.log('medias', medias);
 	var objInsta = [];
 	for(var i = 0 ; i < medias.length ; i++){
 		objtmp.images = medias[i].images;
