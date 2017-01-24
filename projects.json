@@ -6,7 +6,7 @@
         "toolsUsed" : "Salesforce / Talend / Apex / Visualforce / JQuery / Word / Excel / LucidChart",
         "timeProject": "6 mois",
         "statusProject" : "Terminé",
-        "pathImageProject" : "../images/Salesforce_Logo.png"
+        "pathImageProject" : "../images/logoSalesforce.png"
     },
     {   
         "titleProject": "Analyse d’affaires",
@@ -15,7 +15,7 @@
         "toolsUsed" : "Salesforce / Talend / Apex / Visualforce / AngularJS / CSS",
         "timeProject": "6 mois",
         "statusProject" : "Terminé",
-        "pathImageProject" : "../images/Salesforce_Logo.png"
+        "pathImageProject" : "../images/logoSalesforce.png"
     },
     {   
         "titleProject": "Création d’un outil personnalisé de création de devis pour analyse d’affaires",
@@ -24,7 +24,7 @@
         "toolsUsed" : "Salesforce / Talend / Apex / Visualforce",
         "timeProject": "2 mois",
         "statusProject" : "Terminé",
-        "pathImageProject" : "../images/Salesforce_Logo.png"
+        "pathImageProject" : "../images/logoSalesforce.png"
     },
     {   
         "titleProject": "Gestion du centre d’appels",
@@ -33,7 +33,7 @@
         "toolsUsed" : "Salesforce / Talend / Apex / Visualforce",
         "timeProject": "3 mois",
         "statusProject" : "Terminé",
-        "pathImageProject" : "../images/Salesforce_Logo.png"
+        "pathImageProject" : "../images/logoSalesforce.png"
     },
     {   
         "titleProject": "Création de modules personnalisés dans Salesforce",
@@ -42,7 +42,7 @@
         "toolsUsed" : "Salesforce / Talend / Apex ",
         "timeProject": "3 mois",
         "statusProject" : "Terminé",
-        "pathImageProject" : "../images/Salesforce_Logo.png"
+        "pathImageProject" : "../images/logoSalesforce.png"
     },
     {   
         "titleProject": "Création d’un comparateur de prix intégré à Salesforce",
@@ -51,7 +51,7 @@
         "toolsUsed" : "Salesforce / Talend / Apex",
         "timeProject": "2 mois",
         "statusProject" : "Terminé",
-        "pathImageProject" : "../images/Salesforce_Logo.png"
+        "pathImageProject" : "../images/logoSalesforce.png"
     },
     {   
         "titleProject": "Datananas",
