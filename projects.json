@@ -1,7 +1,16 @@
 [
     {   
+        "titleProject": "Création d’une application lightning pour récupérer les enregistrements supprimés",
+        "textProject": "<p> Salesforce n'a pas implémenté dans sa nouvelle interface Lightning experience la corbeille.</p><p>Les utilisateurs sont obligés de repartir sur Salesforce classic pour avoir accès à cette fonctionnalité.</p><p>C'est une fonctionnalité qui se retrouve très intéressante lorsque l'on fait des fusions ou du nettoyage de données</p>",
+        "tasks" : "<ul><li> Création de plusieurs composants lightning</li><li>Mises-en place des différentes requêtes pour récupérer les enregistrements supprimés</li> <li> Déploiement de l'application sur l'AppExchange</li> </ul><br/><p>Vous pouvez retrouver ce composant ici : </p><br/>AppExchange : Recycle Bin <br/><a ><p>https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000Dq7VmEAJ</p><a/>",
+        "toolsUsed" : "Salesforce / Lightning Component / Apex",
+        "timeProject": "1 mois",
+        "statusProject" : "Terminé",
+        "pathImageProject" : "../images/textRecycleBin.png"
+    },
+    {   
         "titleProject": "Création d’une interface d’édition de devis dans Salesforce",
-        "textProject": "<p> Pour l’édition de ses devis clients, IEC dispose d’un outil interne appelé Deviseur. Avec l’intégration du CRM, il était plus avantageux de mettre en place un outil de création de devis depuis Salesforce.</p>",
+        "textProject": "<p> Pour l’édition de ses devis clients, IEC dispose d’un outil interne appelé Deviseur</p>.<p> Avec l’intégration du CRM, il était plus avantageux de mettre en place un outil de création de devis depuis Salesforce.</p>",
         "tasks" : "<ul><li> Interfaçage des devis entre Salesforce et un outil interne (SQL Server)</li><li> Interfaçage des produits installés et sérialisés chez les clients entre Salesforce et Navision (SQL Server) </li> <li> Rédaction des spécifications techniques et fonctionnelles </li>      <li> Interfaçage des commandes de ventes et d’achats entre Navision et MySQL afin d’avoir un suivi complet des transactions</li>        <li> Paramétrage de l’environnement Salesforce : création de champs, d’objets, de données utiles pour le développement, de règles de validation, de processus pour encadrer l’interface de l’utilisateur</li>         <li> Maintenance et évolution des différents outils</li>          </ul>",
         "toolsUsed" : "Salesforce / Talend / Apex / Visualforce / JQuery / Word / Excel / LucidChart",
         "timeProject": "6 mois",
